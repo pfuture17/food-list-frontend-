@@ -1,0 +1,41 @@
+.feedbackContainer {
+    width: 80%;
+    margin: auto;
+    margin: 5px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: lightpink;
+    border-radius: 10px;
+    color: azure;
+    padding: 50px;
+}
+
+.commentBox span{
+    width: 100px;
+}
+.commentBox{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid azure;
+}
+
+.commentBox:nth-of-type(odd) {
+    background-color: lightskyblue;
+}
+.commentBox:nth-of-type(even) {
+    background-color: lightsalmon;
+}
+#addCommentBtn{
+    background-color: lightskyblue;
+    border: 1px solid azure;
+    width: 200px;
+    border-radius: 10px;
+    color: azure;
+}
+#addCommentBtn:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#upvote{
+    cursor: pointer;
+}

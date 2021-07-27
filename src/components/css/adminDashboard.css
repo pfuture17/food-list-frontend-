@@ -1,0 +1,20 @@
+.adminContainer{
+    width: 50%;
+    margin: auto;
+}
+.feedbackBoxAdmin {
+    margin: 5px;
+    padding: 20px;
+    background-color: lightpink;
+    border-radius: 10px;
+    color: azure;
+}
+#delete{
+    float: right;
+    clear: right;
+    cursor: pointer;
+}
+#logout{
+    margin: auto;
+    margin-left: 140%;
+}

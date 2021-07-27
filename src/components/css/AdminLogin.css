@@ -1,0 +1,21 @@
+.adminLogin{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 150px;
+    background-color: lightpink;
+    color: azure;
+    border-radius: 50px;
+}
+.adminLogin button {
+    background-color: lightskyblue;
+    border: 1px solid azure;
+    margin: 5px;
+    width: 100px;
+    border-radius: 10px;
+    color: azure;
+}
+.adminLogin button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}

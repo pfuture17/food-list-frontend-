@@ -1,0 +1,30 @@
+.addFoodFormModal {
+    margin: 0 auto;
+    text-align: center;
+}
+.addFoodFormModal span{
+    width: 80px;
+    display: inline-block;
+    margin: 5px;
+}
+.addFoodFormModal input, textarea{
+    width: 300px;
+    display: inline-block;
+}
+.modalHeader, .modalFooter{
+    background-color: lightskyblue;
+    color: azure;
+}
+.modalBody{
+    color: lightskyblue;
+}
+.addFoodFormModal button {
+    margin: 5px;
+    width: 400px;
+    background-color: lightskyblue;
+    border: 2px solid lightpink;
+    color: azure;
+}
+.addFoodFormModal button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}

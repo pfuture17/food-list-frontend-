@@ -1,0 +1,40 @@
+.foodBox {
+    background-color: lightpink;
+    border-radius: 50px;
+    width: 40%;
+    margin: 5px;
+    color: azure;
+    font-size: 18px;
+    padding: 20px;
+}
+.foodBox span{
+    text-align: justify;
+}
+#img {
+    border: 2px solid azure;
+    width: 300px;
+    margin-left: 23%;
+    
+}
+.foodContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+#addFeedbackBtn {
+    background-color: lightskyblue;
+    border: 1px solid azure;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    color: azure;
+    margin-left: 30%;
+}
+#addFeedbackBtn:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.empty{
+    color: red;
+}
